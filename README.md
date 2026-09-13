@@ -1,9 +1,10 @@
 # SWIFT Codes API
-
-Rejestr kodów SWIFT instytucji finansowych — REST API oparte o Spring Boot i PostgreSQL.
-
+ 
+Financial institution SWIFT code registry — REST API built with Spring Boot and PostgreSQL.
+ 
 **Stack:** Java 21, Maven, Spring Boot, Hibernate/JPA, PostgreSQL (Docker), Swagger.
-
-**Architektura:** heksagonalna (porty i adaptery) — `domain/`, `application/`, `adapter/`.
-
-**Funkcje:** import CSV do bazy, pobranie banku po SWIFT code, lista banków po kodzie ISO2, dodanie i usunięcie rekordu.
+ 
+**Architecture:** Hexagonal (ports and adapters) — `domain/`, `application/`, `adapter/`.
+ 
+**Features:** CSV import to database, bank lookup by SWIFT code, bank listing by ISO2 country code, record creation and deletion.
+ 
